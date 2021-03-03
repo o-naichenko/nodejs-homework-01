@@ -8,7 +8,7 @@ const {
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
-      await listContacts();
+      await   listContacts();
       break;
 
     case "get":
